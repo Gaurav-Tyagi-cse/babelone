@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BES</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="imges/BES WHITE-01[1].png" style="border-radius:50%;">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <section class="services-section d-flex align-items-center text-white text-center">
+        <div class="container">
+            <div class="animated-title mb-4">
+                <h1 class="display-4 fw-bold">Our Services</h1>
+            </div>
+            <p class="lead">At Babylon Engineering Solutions, we are dedicated to providing high-quality, precise steel
+                detailing services that support every phase of your construction project. Our services encompass
+                comprehensive shop drawings, erection drawings, 3D modelling, connection detailing, and rebar detailing,
+                ensuring each steel component is crafted and assembled to exact specifications..</p>
+        </div>
+    </section>
+    <!-- Services Introduction Section -->
+    <div class="container my-5">
+        <section class="text-center">
+            <h1 class="mb-4">Our Steel Detailing Services</h1>
+            <p>
+                Our experienced team uses advanced industry-standard advanced software’s, to create accurate, detailed
+                plans that allow for seamless fabrication and on-site installation. Every drawing and model is
+                meticulously checked and cross-referenced with engineering designs, guaranteeing that our detailing
+                aligns with project requirements, enhances safety, and minimizes errors during construction.
+                We understand that precision in steel detailing is critical to the success of any structural project,
+                and that’s why we are committed to delivering solutions that not only meet but exceed industry
+                standards. By working closely with architects, engineers, and fabricators, we ensure that each project
+                progresses smoothly from design to execution, saving both time and resources for our clients.
+
+            </p>
+        </section>
+    </div>
+
+    <!-- Services Section -->
+    <!-- <div class="container">
+    <div class="row">
+
+        <div class="col-lg-6 col-md-12 my-3">
+            <div class="service-box p-4 h-100">
+                <h3>Shop Drawings</h3>
+                <p><strong>Description:</strong> Clear, precise shop drawings tailored for fabricators, ensuring each part is detailed to exact specifications.</p>
+                <p><strong>Benefits:</strong> Reduced fabrication errors, faster assembly.</p>
+                <p><strong>Process:</strong> Overview of how shop drawings are created and reviewed for quality.</p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 my-3">
+            <div class="service-box p-4 h-100">
+                <h3>Erection Drawings</h3>
+                <p><strong>Description:</strong> Detailed erection drawings guiding the installation team on placement and assembly.</p>
+                <p><strong>Benefits:</strong> Helps on-site teams with efficient planning and smooth construction flow.</p>
+                <p><strong>Process:</strong> Explanation of detailing for structural integrity and assembly sequencing.</p>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 my-3">
+            <div class="service-box p-4 h-100">
+                <h3>3D Modeling</h3>
+                <p><strong>Description:</strong> Comprehensive 3D models of structural steel components, allowing clients to visualize their projects fully before fabrication.</p>
+                <p><strong>Benefits:</strong> Early error detection, enhanced visualization, and coordination with other trades.</p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 my-3">
+            <div class="service-box p-4 h-100">
+                <h3>Connection Detailing</h3>
+                <p><strong>Description:</strong> Meticulous detailing of all steel connections to meet project specifications and safety requirements.</p>
+                <p><strong>Benefits:</strong> Ensures stability, reduces load-related failures.</p>
+                <p><strong>Process:</strong> Structural analysis for each connection, compliant with local and international standards.</p>
+            </div>
+        </div>
+    </div>
+</div> -->
+    <div class="container my-5">
+        <div class="row">
+            <!-- Shop Drawings Section -->
+            <div class="col-lg-6 col-md-12 my-3" id="erection-drawings">
+                <div class="service-box">
+                    <div class="image-section">
+                        <img src="imges/ss.jpeg" alt="Shop Drawings" class="img-fluid" data-toggle="modal"
+                            data-target="#imageModal" onclick="showImage(this.src)">
+                    </div>
+                    <div class="text-section">
+                        <h3>Shop Drawings</h3>
+                        <p><strong>Description:</strong> Clear, precise shop drawings tailored for fabricators, ensuring
+                            each part is detailed to exact specifications.</p>
+                        <p><strong>Benefits:</strong> Reduced fabrication errors, faster assembly.</p>
+                        <p><strong>Process:</strong> Overview of how shop drawings are created and reviewed for quality.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Erection Drawings Section -->
+            <div class="col-lg-6 col-md-12 my-3" id="ss">
+                <div class="service-box">
+                    <div class="image-section">
+                        <img src="imges/ef.jpeg" alt="Erection Drawings" class="img-fluid" data-toggle="modal"
+                            data-target="#imageModal" onclick="showImage(this.src)">
+                    </div>
+                    <div class="text-section">
+                        <h3 class="py-1">Erection Drawings</h3>
+                        <p><strong>Description:</strong> Detailed erection drawings guiding the installation team on
+                            placement.</p>
+                        <p><strong>Benefits:</strong> Helps on-site teams with efficient planning.</p>
+                        <p><strong>Process:</strong> Explanation of detailing for structural integrity and assembly.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 3D Modeling Section -->
+            <div class="col-lg-6 col-md-12 my-3" id="pp">
+                <div class="service-box">
+                    <div class="image-section" style="background-color: #DCDCDC;">
+                        <img src="imges/pro4 - Copy.jpg" alt="3D Modeling" class="img-fluid" data-toggle="modal"
+                            data-target="#imageModal" onclick="showImage(this.src)"
+                            style="width: 300px; height: 300px;">
+                    </div>
+                    <div class="text-section">
+                        <h3 class="py-1">3D Modeling</h3>
+                        <p><strong>Description:</strong> Comprehensive 3D models of structural steel components,
+                            allowing clients to visualize their projects fully before fabrication.</p>
+                        <p><strong>Benefits:</strong> Early error detection, enhanced visualization, and coordination
+                            with other trades.</p>
+                        <p><strong>Process:</strong> Structural analysis for each connection, compliant with local.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Connection Detailing Section -->
+            <div class="col-lg-6 col-md-12 my-3">
+                <div class="service-box">
+                    <div class="image-section">
+                        <img src="imges/contionn.jpg" alt="Connection Detailing" class="img-fluid" data-toggle="modal"
+                            data-target="#imageModal" onclick="showImage(this.src)" style="width: 300px;">
+                    </div>
+                    <div class="text-section">
+                        <h3 class="py-3">Connection Detailing</h3>
+                        <p><strong>Description:</strong> Meticulous detailing of all steel connections to meet project
+                            specifications and safety requirements.</p>
+                        <p><strong>Benefits:</strong> Ensures stability, reduces load-related failures.</p>
+                        <p><strong>Process:</strong> Structural analysis for each connection, compliant with local and
+                            international standards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Image Preview</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="modalImage" src="" alt="Preview" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Industries Served Section -->
+    <div class="container my-5">
+        <section class="text-center">
+            <h2 class="mb-4">Industries Served</h2>
+            <p>We proudly serve a range of industries, including commercial construction, infrastructure projects,
+                energy, and oil & gas.</p>
+            <div class="row">
+                <div class="col-md-6 my-3 industry-box">
+                    <i class="fas fa-building fa-3x mb-2"></i>
+                    <h5>Commercial Construction</h5>
+                </div>
+                <div class="col-md-6 my-3 industry-box">
+                    <i class="fas fa-road fa-3x mb-2"></i>
+                    <h5>Infrastructure Projects</h5>
+                </div>
+                <!-- <div class="col-md-4 my-3 industry-box">
+                    <i class="fas fa-oil-can fa-3x mb-2"></i>
+                    <h5>Energy & Oil & Gas</h5>
+                </div> -->
+            </div>
+        </section>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Building Types</h2>
+        <div class="row">
+            <!-- Card for each building type -->
+            <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up">
+                <div class="card h-100">
+                    <img src="imges/ser.jpg" class="card-img-top" alt="Heavy Industrial Buildings">
+                    <div class="card-body">
+                        <h5 class="card-title">Heavy Industrial Buildings</h5>
+                        <p class="card-text">Description of Heavy Industrial Buildings.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up">
+                <div class="card h-100">
+                    <img src="imges/pngegg3.webp" class="card-img-top" alt="Multi-storey Structures">
+                    <div class="card-body">
+                        <h5 class="card-title">Multi-storey Structures</h5>
+                        <p class="card-text">Description of Multi-storey Structures.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat for each building type... -->
+            <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up">
+                <div class="card h-100">
+                    <img src="imges/che.jpg" class="card-img-top" alt="Multi-storey Structures">
+                    <div class="card-body">
+                        <h5 class="card-title"> Churches</h5>
+                        <p class="card-text">Description of Churches</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up">
+                <div class="card h-100">
+                    <img src="imges/shol.png" class="card-img-top" alt="Multi-storey Structures">
+                    <div class="card-body">
+                        <h5 class="card-title">Schools and Universities.</h5>
+                        <p class="card-text">Description of schools and Universities..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up">
+                <div class="card h-100">
+                    <img src="imges/pow.jpg" class="card-img-top" alt="Multi-storey Structures">
+                    <div class="card-body">
+                        <h5 class="card-title"> Power Plants.</h5>
+                        <p class="card-text">Description of Power Plants</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up">
+                <div class="card h-100">
+                    <img src="imges/off.avif" class="card-img-top" alt="Multi-storey Structures">
+                    <div class="card-body">
+                        <h5 class="card-title">Office spaces.</h5>
+                        <p class="card-text">Description of Office spaces.</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div id="footer"></div>
+    <!-- Bootstrap JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+    <script>
+        function showImage(src) {
+            document.getElementById('modalImage').src = src;
+        }
+    </script>
+
+</body>
+
+</html>

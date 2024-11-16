@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured Projects Carousel</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- Custom CSS (Optional) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container my-5">
+    <h2 class="text-center">Featured Projects</h2>
+    <div class="owl-carousel owl-theme">
+        
+        <!-- Project Item 1 -->
+        <div class="item">
+            <div class="project-card">
+                <img src="imges/pro8.jpg" alt="Project 1" class="project-image">
+                <div class="project-description">
+                    <h5>Project Title 1</h5>
+                    <p>A brief description of the project showcasing the main features and highlights.</p>
+                    <a href="portfolio.html" class="btn btn-success">View Project</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Project Item 2 -->
+        <div class="item">
+            <div class="project-card">
+                <img src="imges/pro8.jpg" alt="Project 2" class="project-image">
+                <div class="project-description">
+                    <h5>Project Title 2</h5>
+                    <p>A brief description of the project showcasing the main features and highlights.</p>
+                    <a href="portfolio.html" class="btn btn-success">View Project</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Additional project items as needed -->
+    </div>
+</div>
+
+<!-- jQuery, Owl Carousel, and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            dots: true,
+            autoplay: true,           // Enable autoplay
+            autoplayTimeout: 3000,    // Time between transitions (3000ms = 3 seconds)
+            autoplayHoverPause: true, // Pause on hover
+            responsive: {
+                0: { items: 1 },
+                600: { items: 2 },
+                1000: { items: 3 }
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
+
+
+<section class="container mt-5">
+    <h2 class="text-center mb-4" data-aos="fade-down">Industry Insights</h2>
+    <p class="text-center text-muted mb-5" data-aos="fade-up">Stay updated with the latest trends, technologies, and standards in steel detailing.</p>
+    
+    <div class="row">
+      <!-- Article Card Example -->
+      <div class="col-md-4 mb-4" data-aos="fade-up">
+        <div class="card">
+          <img src="imges/blog.jpg" class="card-img-top" alt="Trend Image">
+          <div class="card-body">
+            <h5 class="card-title">Current Trends in Steel Detailing</h5>
+            <p class="card-text">Explore the latest trends impacting the steel detailing industry...</p>
+            <!-- <a href="#" class="btn btn-primary">Read More</a> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Repeat for other articles -->
+      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card">
+          <img src="imges/blog1.jpg" class="card-img-top" alt="New Technology">
+          <div class="card-body">
+            <h5 class="card-title">Emerging Technologies in Steel Detailing</h5>
+            <p class="card-text">Discover new technologies that are revolutionizing steel detailing...</p>
+            <!-- <a href="#" class="btn btn-primary">Read More</a> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="card">
+          <img src="imges/blog3.avif" class="card-img-top" alt="Industry Standards">
+          <div class="card-body py-4">
+            <h5 class="card-title py-1">Industry Standards</h5>
+            <p class="card-text">Learn about the standards that govern the steel detailing industry...</p>
+            <!-- <a href="#" class="btn btn-primary">Read More</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

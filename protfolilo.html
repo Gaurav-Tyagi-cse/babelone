@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BES</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="imges/BES WHITE-01[1].png" style="border-radius:50%;">
+
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <section class="pro-section1 d-flex align-items-center text-white text-center">
+        <div class="container">
+            <div class="animated-title mb-4">
+                <h1 class="display-4 fw-bold ">My Portfolio</h1>
+            </div>
+            <p class="lead">Showcasing my work and achievements</p>
+        </div>
+    </section>
+
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Featured Projects</h2>
+        <div class="row">
+            <!-- Project Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card animated-card">
+                    <img src="imges/pro10.jpg" class="card-img-top" alt="Project Name 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Name 1</h5>
+                        <p class="card-text">Location: City, Country</p>
+                        <p class="card-text">Brief description of the project goes here.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Card 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card animated-card">
+                    <img src="imges/pro3.jpg" class="card-img-top" alt="Project Name 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Name 2</h5>
+                        <p class="card-text">Location: City, Country</p>
+                        <p class="card-text">Brief description of the project goes here.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card animated-card">
+                    <img src="imges/pro9.jpg" class="card-img-top" alt="Project Name 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Name 3</h5>
+                        <p class="card-text">Location: City, Country</p>
+                        <p class="card-text">Brief description of the project goes here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Project Categories</h2>
+        <div class="row">
+            <!-- Category Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div id="commercial-buildings" class="category-card animated-card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Commercial Buildings</h5>
+                        <p class="card-text">Explore our innovative designs and constructions in commercial buildings.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Category Card 2 -->
+            <div class="col-md-4 mb-4">
+                <div id="industrial-facilities" class="category-card animated-card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Industrial Facilities</h5>
+                        <p class="card-text">Discover our state-of-the-art industrial facilities projects.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Category Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div id="bridges-infrastructure" class="category-card animated-card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Bridges and Infrastructure</h5>
+                        <p class="card-text">View our extensive work in bridges and infrastructure.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Category Card 4 -->
+            <!-- <div class="col-md-3 mb-4">
+                <div id="energy-sector" class="category-card animated-card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Energy Sector</h5>
+                        <p class="card-text">Learn about our projects in the energy sector.</p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+   
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Case Studies</h2>
+        <div class="row">
+            <!-- Case Study 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="case-study-card animated-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Challenge</h5>
+                        <p class="card-text short-text">The project required detailed structural steelwork for a
+                            multi-story building with complex, non-standard connections and a tight deadline, allowing
+                            little room for error.</p>
+                        <p class="card-text full-text d-none">The project required detailed structural steelwork for a
+                            multi-story building with complex, non-standard connections and a tight deadline, allowing
+                            little room for error.</p>
+                        <h5 class="card-title">Solution</h5>
+                        <p class="card-text short-text">We used advanced 3D modeling and BIM technology to create an
+                            integrated, clash-free model, enabling early detection of potential issues...</p>
+                        <p class="card-text full-text d-none">We used advanced 3D modeling and BIM technology to create
+                            an integrated, clash-free model, enabling early detection of potential issues. Custom
+                            automation tools helped speed up repetitive tasks, and daily team reviews kept us on
+                            schedule and aligned with design requirements.</p>
+                        <h5 class="card-title">Outcome</h5>
+                        <p class="card-text short-text">Delivered on time, the project met all quality standards...</p>
+                        <p class="card-text full-text d-none">Delivered on time, the project met all quality standards
+                            with precise, fabrication-ready details. The efficient process reduced on-site adjustments,
+                            met complex design needs, and strengthened our client relationship.</p>
+                        <button class="btn btn-primary btn-sm toggle-text">Show More</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat for Case Study 2 and Case Study 3 -->
+            <!-- Case Study 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="case-study-card animated-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Challenge</h5>
+                        <p class="card-text short-text">Our team undertook a structural steel detailing project that
+                            required integrating new steel framing with an existing structure...</p>
+                        <p class="card-text full-text d-none">Our team undertook a structural steel detailing project
+                            that required integrating new steel framing with an existing structure. The challenge was to
+                            coordinate our designs precisely with the original steel layout, which had unique dimensions
+                            and configurations not fully documented. This required accurate alignment and careful
+                            planning to ensure the new steel framing would seamlessly connect with and support the
+                            existing framework.
+
+                        <p>
+                        <h5 class="card-title">Solution</h5>
+                        <p class="card-text short-text">To tackle this, we began by conducting a thorough site analysis,
+                            collecting as-built data on the existing steel framework...</p>
+                        <p class="card-text full-text d-none">To tackle this, we began by conducting a thorough site
+                            analysis, collecting as-built data on the existing steel framework through laser scanning
+                            and detailed field measurements. Using this data, we created an integrated 3D model that
+                            combined both the existing and new steel structures. This model helped us identify potential
+                            clashes, load concerns, and precise connection points before fabrication. We held frequent
+                            coordination sessions with on-site engineers, incorporating real-time feedback to adjust
+                            details as needed, ensuring that each new connection was compatible and structurally sound.
+
+                        </p>
+                        <h5 class="card-title">Outcome</h5>
+                        <p class="card-text short-text">The integration of the new steel framing with the existing
+                            structure was completed without delays  or unexpected issues...</p>
+                        <p class="card-text full-text d-none">.The integration of the new steel framing with the
+                            existing structure was completed without delays or unexpected issues. Our precise detailing
+                            allowed for accurate fabrication and seamless installation, minimizing rework and on-site
+                            adjustments. This careful coordination ensured a robust, unified structure that extended the
+                            facility's capacity, meeting the client's specifications and operational goals. The project
+                            success highlighted our team's ability to deliver detailed, reliable designs for complex
+                            renovations and additions, reinforcing our reputation as a trusted partner in structural
+                            steel detailing.
+
+                        </p>
+                        <button class="btn btn-primary btn-sm toggle-text">Show More</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Case Study 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="case-study-card animated-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Challenge</h5>
+                        <p class="card-text short-text">We undertook a structural steel detailing project that required
+                            extensive coordination with multiple trades...</p>
+                        <p class="card-text full-text d-none">We undertook a structural steel detailing project that
+                            required extensive coordination with multiple trades, including joist suppliers,
+                            Buckling-Restrained Braces (BRB), mechanical systems, elevators, and miscellaneous steel
+                            components. The challenge lay in aligning all these elements within a tight construction
+                            schedule while ensuring no clashes or misalignments during fabrication and erection..</p>
+                        <h5 class="card-title">Solution</h5>
+                        <p class="card-text short-text">Our team used a collaborative approach by integrating all trade
+                            inputs into a single 3D model...  We meticulously coordinated with each trade partner,</p>
+                        <p class="card-text full-text d-none">Our team used a collaborative approach by integrating all
+                            trade inputs into a single 3D model. We meticulously coordinated with each trade partner,
+                            sharing models and conducting regular clash detection reviews to identify and resolve
+                            conflicts early. This included precise alignment of joist bearing points, BRB connections,
+                            elevator shaft framing, and allowances for mechanical penetrations. Detailed shop drawings
+                            were generated to reflect the coordinated designs, and ongoing communication with suppliers
+                            and subcontractors ensured alignment with their specific requirements. To further streamline
+                            the process, we established a clear workflow and scheduling system, holding weekly
+                            coordination meetings with all stakeholders to address changes promptly. This proactive
+                            approach minimized delays and ensured that every element of the design was both feasible and
+                            practical for construction.
+
+                            .</p>
+                        <h5 class="card-title">Outcome</h5>
+                        <p class="card-text short-text">The project was completed successfully, with all steel elements
+                            fabricated and installed...</p>
+                        <p class="card-text full-text d-none">The project was completed successfully, with all steel
+                            elements fabricated and installed without conflicts or delays. Our detailed coordination
+                            enabled smooth integration of the joists, BRBs, mechanical systems, elevators, and
+                            miscellaneous steel components. The seamless execution reduced rework on-site, optimized the
+                            construction timeline, and met the client's expectations for quality and precision. This
+                            project demonstrated our expertise in managing complex, multi-trade coordination and
+                            reinforced our ability to deliver efficient and reliable structural steel detailing
+                            solutions.</p>
+                        <button class="btn btn-primary btn-sm toggle-text">Show More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <br>
+      <br>
+    <script>
+        document.querySelectorAll('.toggle-text').forEach(button => {
+            button.addEventListener('click', () => {
+                const cardBody = button.parentElement;
+                const shortText = cardBody.querySelectorAll('.short-text');
+                const fullText = cardBody.querySelectorAll('.full-text');
+                const isHidden = fullText[0].classList.contains('d-none');
+
+                shortText.forEach(text => text.classList.toggle('d-none'));
+                fullText.forEach(text => text.classList.toggle('d-none'));
+
+                button.textContent = isHidden ? 'Show Less' : 'Show More';
+            });
+        });
+    </script>
+
+
+
+    <div id="footer"></div>
+    <!-- Bootstrap JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
